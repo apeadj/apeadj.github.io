@@ -1,0 +1,17 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+
+# Portuguese (default)
+# -----------------
+pt: &DEFAULT_PT
+  nav:
+    - title: "Portfolio"
+      section: portfolio
+pt-PT:
+  <<: *DEFAULT_PT

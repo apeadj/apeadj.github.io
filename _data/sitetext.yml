@@ -1,0 +1,26 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# Portuguese (default)
+# -----------------
+pt: &DEFAULT_PT
+  header:
+    title: Welcome to our Studio!
+    text: It's Nice To Meet You
+    button: Saber mais
+    buttonlink: "#portfolio"
+
+  portfolio:
+    title: "Portfolio"
+    text: "Trabalhos Elaborados"
+    section: portfolio
+    closebutton: "Fechar"
+
+pt-PT:
+  <<: *DEFAULT_PT
