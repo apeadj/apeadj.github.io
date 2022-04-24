@@ -26,6 +26,12 @@ header.masthead {
     }
   }
 }
+@media(max-width:400px){
+  header.masthead {
+    background-position: 0px 100px;
+    background-size: 100% 50%;
+  }
+}
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
